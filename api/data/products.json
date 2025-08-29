@@ -1,0 +1,42 @@
+[
+  {
+    "id": "p1",
+    "name": "Guantes GN102",
+    "price": 59.9,
+    "isAvailable": true,
+    "category": "gloves",
+    "image": "/img/gn102.jpg"
+  },
+  {
+    "id": "p2",
+    "name": "Casco CS433",
+    "price": 79.9,
+    "isAvailable": false,
+    "category": "headgear",
+    "image": "/img/cs433.jpg"
+  },
+  {
+    "id": "p3",
+    "name": "Bolsa AC990",
+    "price": 24.5,
+    "isAvailable": true,
+    "category": "bag",
+    "image": "/img/ac990.jpg"
+  },
+  {
+    "id": "p4",
+    "name": "Chaqueta WP200",
+    "price": 120.0,
+    "isAvailable": true,
+    "category": "clothing",
+    "image": "/img/wp200.jpg"
+  },
+  {
+    "id": "p5",
+    "name": "Botas SF500",
+    "price": 89.9,
+    "isAvailable": true,
+    "category": "footwear",
+    "image": "/img/sf500.jpg"
+  }
+]

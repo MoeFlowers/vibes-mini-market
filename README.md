@@ -53,6 +53,22 @@ npm run dev
 - **Paginación client-side** para mejor performance
 - **Filtros combinables** para búsquedas avanzadas
 
+## 📸 Capturas de Pantalla
+
+### 🖥️ Vista de Escritorio
+![Listado de Productos](/docs/screenshot-products.png)
+*Listado principal de productos con filtros*
+
+![Detalle de Producto](/docs/screenshot-detail.png)  
+*Página de detalle con información completa*
+
+![Pagina de Inicio](/docs/screenshot-lading.png)  
+*Página de incio*
+
+### 📱 Vista Móvil
+![Vista Móvil](/docs/screenshot-mobile.png)
+*Diseño responsive en dispositivos móviles*
+
 ## 📦 Estructura del Proyecto
 
 ```

@@ -16,6 +16,22 @@ npm install
 npm run dev
 ```
 
+## 🚀 Despliegue en Producción
+
+El proyecto está configurado con **Nginx como reverse proxy** en el puerto 80:
+
+### Configuración Nginx:
+```nginx
+# Redirección a API (puerto 3001)
+location /api/ {
+    proxy_pass http://localhost:3001/;
+}
+
+# Redirección a Frontend (puerto 3000)  
+location / {
+    proxy_pass http://localhost:3000;
+}
+
 ## ✅ Funcionalidades Implementadas
 
 ### **Backend (Express + TypeScript)**

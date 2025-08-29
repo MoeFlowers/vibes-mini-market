@@ -17,7 +17,7 @@ app.use(express.json());
 app.use('/api/products', productsRouter);
 
 app.listen(PORT, () => {
-  console.log(`🚀 API server running on port ${PORT}`);
-  console.log(`✅ CORS configured for: http://localhost:3000`);
+  console.log(`API server running on port ${PORT}`);
+  console.log(`CORS configured for: http://localhost:3000`);
 });
 
